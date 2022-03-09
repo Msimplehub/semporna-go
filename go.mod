@@ -1,4 +1,4 @@
-module github.com/Msimplehub/go-admin-core
+module github.com/Msimplehub/semporna-go
 
 go 1.14
 
