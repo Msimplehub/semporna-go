@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-admin-team/go-admin-core/config/source"
-	"github.com/go-admin-team/go-admin-core/config/source/env"
-	"github.com/go-admin-team/go-admin-core/config/source/file"
-	"github.com/go-admin-team/go-admin-core/config/source/memory"
+	"github.com/Msimplehub/semporna-go/config/source"
+	"github.com/Msimplehub/semporna-go/config/source/env"
+	"github.com/Msimplehub/semporna-go/config/source/file"
+	"github.com/Msimplehub/semporna-go/config/source/memory"
 )
 
 func createFileForIssue18(t *testing.T, content string) *os.File {

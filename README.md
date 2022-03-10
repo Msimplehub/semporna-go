@@ -1,4 +1,4 @@
-# go-admin-team 公共代码库
+# semporna 公共代码库
 
 ### 功能
  - [x] log组件

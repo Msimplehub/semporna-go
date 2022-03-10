@@ -2,7 +2,7 @@ package ctxlog
 
 import (
 	"context"
-	"github.com/go-admin-team/go-admin-core/logger"
+	"github.com/Msimplehub/semporna-go/logger"
 
 	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
 )

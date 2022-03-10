@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"github.com/go-admin-team/go-admin-core/config/reader"
-	"github.com/go-admin-team/go-admin-core/config/source"
+	"github.com/Msimplehub/semporna-go/config/reader"
+	"github.com/Msimplehub/semporna-go/config/source"
 )
 
 // Loader manages loading sources

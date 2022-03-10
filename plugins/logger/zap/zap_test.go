@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-admin-team/go-admin-core/debug/writer"
-	"github.com/go-admin-team/go-admin-core/logger"
+	"github.com/Msimplehub/semporna-go/debug/writer"
+	"github.com/Msimplehub/semporna-go/logger"
 )
 
 func TestName(t *testing.T) {
