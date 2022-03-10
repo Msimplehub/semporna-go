@@ -4,7 +4,7 @@ go 1.14
 
 require (
 	github.com/Msimplehub/semporna-go v1.0.1
-	github.com/Msimplehub/semporna-go/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d
+	github.com/Msimplehub/semporna-go/plugins/logger/zap v1.0.1
 	github.com/bsm/redislock v0.5.0
 	github.com/bytedance/go-tagexpr/v2 v2.7.12
 	github.com/casbin/casbin/v2 v2.24.0
@@ -30,6 +30,6 @@ require (
 )
 
 replace (
-	github.com/Msimplehub/semporna-go/plugins/logger/zap => ../plugins/logger/zap
 	github.com/Msimplehub/semporna-go => ../
+	github.com/Msimplehub/semporna-go/plugins/logger/zap => ../plugins/logger/zap
 )
