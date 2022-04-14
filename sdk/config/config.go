@@ -95,3 +95,32 @@ func Setup(s source.Source,
 	}
 	_cfg.Init()
 }
+
+// LoadSempConfig 装载配置文件
+func LoadSempConfig(s source.Source, fs ...func()) {
+	_cfg = &Settings{
+		Settings: Config{
+			Application: ApplicationConfig,
+			Ssl:         SslConfig,
+			Logger:      LoggerConfig,
+			Jwt:         JwtConfig,
+			Database:    DatabaseConfig,
+			Databases:   &DatabasesConfig,
+			Gen:         GenConfig,
+			Cache:       CacheConfig,
+			Queue:       QueueConfig,
+			Locker:      LockerConfig,
+			Extend:      ExtendConfig,
+		},
+		callbacks: fs,
+	}
+	var err error
+	config.DefaultConfig, err = config.NewConfig(
+		config.WithSource(s),
+		config.WithEntity(_cfg),
+	)
+	if err != nil {
+		log.Fatal(fmt.Sprintf("New config object fail: %s", err.Error()))
+	}
+	_cfg.Init()
+}

@@ -4,9 +4,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"net/http"
 
-	"github.com/casbin/casbin/v2"
 	"github.com/Msimplehub/semporna-go/logger"
 	"github.com/Msimplehub/semporna-go/storage"
+	"github.com/casbin/casbin/v2"
 	"github.com/robfig/cron/v3"
 	"gorm.io/gorm"
 )
