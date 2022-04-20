@@ -4,7 +4,7 @@ go 1.14
 
 require (
 	github.com/Msimplehub/semporna-go v1.0.1
-	github.com/Msimplehub/semporna-go/plugins/logger/zap v0.0.0-00010101000000-000000000000
+	github.com/Msimplehub/semporna-go/plugins/logger/zap v0.0.0-20220420033837-52a0dfc38d38
 	github.com/bsm/redislock v0.5.0
 	github.com/bytedance/go-tagexpr/v2 v2.7.12
 	github.com/casbin/casbin/v2 v2.24.0

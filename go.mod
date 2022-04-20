@@ -4,6 +4,8 @@ go 1.14
 
 require (
 	github.com/BurntSushi/toml v0.3.1
+	github.com/Msimplehub/semporna-go/plugins/logger/zap v0.0.0-20220420033837-52a0dfc38d38 // indirect
+	github.com/Msimplehub/semporna-go/sdk v1.0.5 // indirect
 	github.com/bitly/go-simplejson v0.5.0
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/bsm/redislock v0.5.0
@@ -22,7 +24,6 @@ require (
 	github.com/robinjoseph08/redisqueue/v2 v2.1.0
 	github.com/smartystreets/goconvey v1.6.4
 	github.com/spf13/cast v1.3.1
-	github.com/stretchr/testify v1.6.1 // indirect
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
 	golang.org/x/image v0.0.0-20210220032944-ac19c3e999fb // indirect
 	google.golang.org/protobuf v1.26.0-rc.1
