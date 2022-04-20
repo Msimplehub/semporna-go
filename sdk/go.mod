@@ -30,4 +30,5 @@ require (
 
 replace (
 	github.com/Msimplehub/semporna-go => ../
+	github.com/Msimplehub/semporna-go/plugins/logger/zap => ../plugins/logger/zap
 )
